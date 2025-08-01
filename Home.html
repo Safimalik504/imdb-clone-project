@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+    <title>IMDb: Ratings, Reviews, and Where to Watch</title>
+    <link rel="icon" type="image/x-icon" href="titlelogo.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="h-left">
+        <a href="Home.html">
+          <img src="logo2.png" alt="IMDb Logo" />
+        </a>
+        <h3 class="menu-icon">&#9776; <span>Menu</span></h3>
+      </div>
+
+      <div class="search-bar">
+        <select class="search-category">
+          <option>All</option>
+          <option>Titles</option>
+          <option>Episodes</option>
+          <option>Celebs</option>
+        </select>
+        <input type="text" id="searchinput" />
+        <button class="searchbutton">🔍</button>
+      </div>
+
+      <div class="h-right">
+        <a class="nav-link" href="#">
+          <strong>IMDb<span>Pro</span></strong>
+        </a>
+        <a class="nav-link" href="#">Watchlist</a>
+        <a class="nav-link" href="#">Sign in</a>
+        <a class="nav-link" href="#">EN ▼</a>
+      </div>
+    </header>
+    <div class="slider-container">
+      <button id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+      <div class="slider" id="movieSlider"></div>
+      <button id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+    </div>
+    <br /><br /><br />
+    <h1>Most Popular Celebrities</h1>
+    <br />
+    <div class="slider-container1">
+      <button id="prevbtn"><i class="fas fa-chevron-left"></i></button>
+      <div class="slider1" id="actorSlider"></div>
+      <button id="nextbtn"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <footer>
+      <a class="signup" href="signup.html">
+        <strong>Sign in for more access</strong>
+      </a>
+      <br /><br />
+      <h3>Get the IMDb App</h3>
+      <h3>For Android and iOS</h3>
+      <a href="https://slyb.app.link/Aa96cLcBeAb"
+        ><img
+          src="https://m.media-amazon.com/images/G/01/IMDb/Mobile/DesktopQRCode-png.png"
+      /></a>
+      <p>© 1990-2025 by IMDb.com, Inc.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
